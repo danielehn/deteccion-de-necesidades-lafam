@@ -12,7 +12,7 @@
     <div class="row">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <article>
-          <a href="Index.HTML">
+          <a href="index.html">
               <img src="imagenes/Logo-Lafam-uso-fondo-blanco.jpg" alt="width250" height="200">
             </article>
             <div class="container-fluid">
@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,9 +62,50 @@
   </header>
 <body>
 <main>
-  <div class="grid-todo">
 
-      
+
+  <div class="grid-todo">
+      <div class="grid-formulario">
+        <div class="Formulario-contacto ">
+          <form>
+            <div class="row-contacto mb-3">
+              <label for="inputEmail" class="col-sm-2 col-form-label">Nombre completo</label>
+              <div class="col-sm-10">
+                <input type="Nombre" class="form-control" id="inputNombre">
+              </div>
+            </div>
+            <fieldset class="row-contacto mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Sexo
+              </legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
+                  <label class="form-check-label" for="gridRadios1">
+                    Hombre
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Mujer
+                  </label>
+                </div>
+              </div>
+              
+            </fieldset>
+          </form>
+        </div>
+      <div class="edad">
+        <div class="row-contacto mb-3">
+            <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad">Edad</label>
+            <div class="col-sm-10">
+                <input type="placeholder" class="form-control" id="placeholder">
+              </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      <br>
       <h1>GAFAS</h1>
       <h3>necesidades de correcion optica </h3>
       <br>
@@ -95,7 +136,7 @@
         <option value="2">1-2 años</option>
         <option value="3">mayor 2 años</option>
 </select>
-        <h3>¿Adicional a sus gafas gafas usa otra correccion optica?</h3>
+        <h3>¿Adicional a sus gafas usa otra correccion optica?</h3>
         <div class="selecion-todo">
             
             <div class="form-check">
@@ -120,6 +161,12 @@
             <input class="form-check-input" type="checkbox" value="hola" id="flexCheckChecked" checked>
             <label class="form-check-label" for="flexCheckChecked">
                 sol rx
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="hola" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+            Sol Plano
             </label>
         </div>
         <div class="form-check">
@@ -150,7 +197,7 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
-            <h5>que beneficios tiene con sus gafas</h5>
+            <h5>¿Que beneficios tiene con sus gafas?</h5>
             <div class="selecion-todo">     
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -213,7 +260,7 @@
       </div>
     </div>
   </div>
-<h3>¿como le ha ido con su marca?</h3>
+<h3>¿Como le ha ido con su marca?</h3>
 <select class="form-select" aria-label="Default select example">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -222,7 +269,7 @@
     <option value="5">5</option>
 </select>
 
-<h3>¿que es lo que mas te gusta de sus gafas actuales?</h3>
+<h3>¿Que es lo que mas te gusta de sus gafas actuales?</h3>
 <div class="selecion-todo">
                 
     <div class="form-check">
@@ -302,7 +349,7 @@ acetato
 </label>
 </div>
 </div>
-<h3>¿cuales son sus actividades diarias?</h3>
+<h3>¿Cuales son sus actividades diarias?</h3>
 <div class="row-contacto mb-3">
     <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
     <div class="col-sm-10">
@@ -339,13 +386,13 @@ tablet
 </label>
 </div>
 </div>
-<h3>¿cuantas horas al dia?</h3>
+<h3>¿Cuantas horas al dia?</h3>
 <select class="form-select" aria-label="Default select example">
     <option value="1">1 hora </option>
     <option value="2">1-4 horas</option>
     <option value="3">8 horas</option>
 </select>
-<h3>¿usted maneja?</h3>
+<h3>¿Usted maneja?</h3>
 <div class="col-sm-10">
     <div class="form-check">
       <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
@@ -368,7 +415,7 @@ tablet
     <option value="5">buses</option>
     <option value="6">camiones</option>
 </select>
-<h3>ha tenido algun inconveniente mientras conduce?</h3>
+<h3>¿Ha tenido algun inconveniente mientras conduce?</h3>
   <div class="selecion-todo">
                 
     <div class="form-check">
@@ -396,26 +443,21 @@ lejos
 </label>
 </div>
 </div>
-<h3>¿hay algunas situaciones en las que sus monturas no sean la solucion perfecta?</h3>
-
+<h3>¿Hay algunas situaciones en las que sus monturas no sean la solucion perfecta?</h3>
 <div class="row-contacto mb-3">
     <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
     <div class="col-sm-10">
         <input type="necesidad" class="form-control" id="inputcorreo">
       </div>
   </div>
-
-  <h3>realiza alguna actividad donde sus gafas pueden estar expuestas a algun daño?</h3>
-
+  <h3>¿Realiza alguna actividad donde sus gafas pueden estar expuestas a algun daño?</h3>
   <div class="row-contacto mb-3">
       <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
       <div class="col-sm-10">
           <input type="necesidad" class="form-control" id="inputcorreo">
         </div>
     </div>
-
-    <h3>practica algun deporte</h3>
-
+    <h3>¿Practica algun deporte</h3>
 <div class="row-contacto mb-3">
     <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
     <div class="col-sm-10">
@@ -423,7 +465,7 @@ lejos
       </div>
   </div>
 
-  <h3>¿en que actividad diaria no considera a utilizar sus lentes?</h3>
+  <h3>¿En que actividad diaria no considera a utilizar sus lentes?</h3>
 
 <div class="row-contacto mb-3">
     <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
@@ -431,17 +473,17 @@ lejos
         <input type="necesidad" class="form-control" id="inputcorreo">
       </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
+  <br>
+  <br>
+  <h1>RX PACIENTE</h1>
+  <br>
+  <div class="container-rx">
+    <div class="row">
+      <div class="col">Esf<input type="placeholder"></div>
+      <div class="col">Ast<input type="placeholder"></div>
+      <div class="col">Eje<input type="placeholder"></div>
+      <div class="col">Add<input type="placeholder"></div>
+    </div>
 </div>
 </main>
 

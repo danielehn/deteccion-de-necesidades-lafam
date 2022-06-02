@@ -87,4 +87,27 @@ body main{
     border: none;
     align-items: center;
   }
-  
+
+.rx{
+    display: flex;
+    flex-direction: row;
+    margin: 3fr;
+    padding: 3fr;
+}
+.rx-datos{
+
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+}
+
+
+  .edad{
+      width: 100px;
+      height: 100px;
+  }
+
+  .container-rx{
+      display: flex;
+  }
