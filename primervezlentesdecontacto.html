@@ -13,7 +13,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <article>
           <a href="index.html">
-              <img src="imagenes/Logo-Lafam-uso-fondo-blanco.jpg" alt="width250" height="200">
+              <img src="imagenes/Logo-Lafam-uso-fondo-blanco.jpg" alt="width250" height="200"></a>
             </article>
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="active" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Procedmientos Laser
+                            Procedimiento Laser
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="procedimientolaser.html">Procedimientos Laser</a></li>
@@ -63,6 +63,7 @@
 <body>
 <main>
   <div class="grid-todo">
+    <h1>Datos personales del paciente</h1>
     <div class="grid-formulario">
       <div class="Formulario-contacto ">
         <form>
@@ -101,34 +102,36 @@
             </div>
         </div>
     </div>
-    <h4> ¿Que incomodidad visual esta sintiendo?</h4>
+  </div>
+  <h1>Necesidades de correción óptica</h1>
+    <h5> ¿Que incomodidad visual esta sintiendo?</h5>
     <select class="form-select" aria-label="Default select example">
       <option value="1">cerca</option>
       <option value="2">lejos</option>
       <option value="3">ambas</option>
     </select>
-    <h4>¿Hace cuanto tiempo viene sintiendo estas molestias?</h4>
+    <h5>¿Hace cuanto tiempo viene sintiendo estas molestias?</h5>
     <select class="form-select" aria-label="Default select example">
         <option value="1">1 año</option>
         <option value="2">1-2 años</option>
         <option value="3">mayor 2 años</option>
     </select>
-    <h4>¿En que momento del dia estas molestias son más intensas?</h4>
+    <h5>¿En que momento del dia estas molestias son más intensas?</h5>
     <select class="form-select" aria-label="Default select example">
         <option value="1">dia</option>
         <option value="2">tarde</option>
         <option value="3">noche</option>
     </select>
+    <h1>Satisfacción de uso o expectativas</h1>
     <h5>¿Por que le gustaria utilizar Lentes de Contacto?</h5>
     <div class="row-contacto mb-3">
       <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
       <div class="col-sm-10">
           <input type="necesidad" class="form-control" id="inputcorreo">
         </div>
-        <br>
         <button class="btn btn-primary">tener aca</button>
     </div>
-    <h3>¿Que beneficio espera de los lentes de contacto?</h3>
+    <h5>¿Que beneficio espera de los lentes de contacto?</h5>
     <div class="row-contacto mb-3">
       <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
       <div class="col-sm-10">
@@ -137,7 +140,7 @@
         <br>
         <button class="btn btn-primary">tener aca</button>
     </div>
-    <h3>¿Tiene en mente alguna marca en especial?</h3>
+    <h5>¿Tiene en mente alguna marca en especial?</h5>
 <div class="col-sm-10">
     <div class="form-check">
       <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
@@ -156,8 +159,8 @@
       </div>
     </div>
   </div>
-<h3>¿Cuales son sus actividades diarias?</h3>
-</label>
+  <h1>Condiciones de trabajo</h1>
+<h5>¿Cuales son sus actividades diarias?</h5>
 <div class="row-contacto mb-3">
 <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
 <div class="col-sm-10">
@@ -166,9 +169,8 @@
 <br>
 <button class="btn btn-primary">tener aca</button>
    </div>
-   <h3>¿que tipos de dispositivos electronicos usa a diario?</h3>
+   <h5>¿Que tipos de dispositivos electronicos usa a diario?</h5>
    <div class="selecion-todo">
-                 
      <div class="form-check">
          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
          <label class="form-check-label" for="flexCheckDefault">
@@ -194,13 +196,13 @@
  </label>
  </div>
  </div>
- <h3>¿cuantas horas al dia?</h3>
+ <h5>¿Cuantas horas al dia?</h5>
  <select class="form-select" aria-label="Default select example">
      <option value="1">1 hora </option>
      <option value="2">1-4 horas</option>
      <option value="3">8 horas</option>
  </select>
- <h3>¿usted maneja?</h3>
+ <h5>¿Usted maneja?</h5>
  <div class="col-sm-10">
      <div class="form-check">
        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
@@ -223,9 +225,8 @@
      <option value="5">buses</option>
      <option value="6">camiones</option>
  </select>
- <h3>¿ha tenido algun inconveniente mientras conduce?</h3>
-   <div class="selecion-todo">
-                 
+ <h5>¿Ha tenido algun inconveniente mientras conduce?</h5>
+   <div class="selecion-todo">         
      <div class="form-check">
          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
          <label class="form-check-label" for="flexCheckDefault">
@@ -251,27 +252,34 @@
  </label>
  </div>
  </div>
- <h3>¿En que actividades o hobbies consideria utilizar en lentes de contacto?</h3>
+ <h1>Estilo de vida y hobbies</h1>
+ <h5>¿En que actividades o hobbies consideria utilizar en lentes de contacto?</h5>
  <div class="row-contacto mb-3">
    <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
    <div class="col-sm-10">
        <input type="necesidad" class="form-control" id="inputcorreo">
      </div>
-     <br>
      <button class="btn btn-primary">tener aca</button>
  </div>
  <h1>RX PACIENTE</h1>
- <br>
  <div class="container-rx">
    <div class="row">
-     <div class="col">Esf<input type="placeholder"></div>
-     <div class="col">Ast<input type="placeholder"></div>
-     <div class="col">Eje<input type="placeholder"></div>
-     <div class="col">Add<input type="placeholder"></div>
+    <h2>Ojo Derecho</h2>
+    <div class="col">Esf<input type="placeholder"></div>
+    <div class="col">Ast<input type="placeholder"></div>
+    <div class="col">Eje<input type="placeholder"></div>
+    <div class="col">Add<input type="placeholder"></div>
+    <h2>Ojo Izquierdo</h2>
+    <div class="col">Esf<input type="placeholder"></div>
+    <div class="col">Ast<input type="placeholder"></div>
+    <div class="col">Eje<input type="placeholder"></div>
+    <div class="col">Add<input type="placeholder"></div>
    </div>
     </div>
 </main>
     <footer>
+      <h5>HECHO POR DANIEL EDUARDO HERNANDEZ NIETO</h5>
+<h6>Asesor Comercial Optica Lafam L134</h6>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>

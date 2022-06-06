@@ -1,0 +1,134 @@
+*{
+    margin: 15;
+    padding: 15;
+    box-sizing: border-box;
+}
+
+body main{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: rgba(255, 255, 255, 0.543);
+    display: flex;
+}
+
+.fondo{
+    display: flex;
+    width: 150px;
+    height: 100px;
+}
+.header img{
+    width: 10px;
+    height: 10px;
+}
+.header{
+
+    display: grid;
+}
+.lista-nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: aliceblue;
+    line-height: 40px;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar article img{
+    width: 300px;
+    height: 100px;
+}
+
+.form-check{
+    display: flex;
+    justify-content: space-around;
+}
+
+.selecion-todo{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    gap: 50px;
+
+}
+
+.grid-todo{
+     display: grid;
+     margin: 50px;
+     padding: 50px;
+     border: solid black;
+     h1{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         color: rgb(16, 77, 168);
+     }
+     h5{
+         margin-top: 2em;
+         color: rgb(0, 0, 0);
+     }
+    
+}
+
+
+.radio-lc{
+    display: flex;
+
+}
+.card{
+    align-items: center;
+}
+.card img {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+  }
+  .imagen-1 {
+      display: flex;
+    width: 400px;
+    height: 350px;
+    border: none;
+    align-items: center;
+  }
+
+.rx{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    padding: 1em;
+}
+.rx-datos{
+
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+}
+
+
+  .edad{
+      width: 100px;
+      height: 100px;
+  }
+
+  .container-rx{
+      display: flex;
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        h2{
+            margin-top: 1em;
+        }
+    }
+  }
+
+  .grid-formulario{
+    display: flex;
+    flex-direction: column;
+    border:solid rgb(16, 77, 168);
+  }
