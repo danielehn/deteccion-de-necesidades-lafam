@@ -1,11 +1,9 @@
 {
   "name": "deteccion-de-necesidades-lafam",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
-
   },
   "repository": {
     "type": "git",
@@ -17,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/danielehn/deteccion-de-necesidades-lafam/issues"
   },
-  "homepage": "https://github.com/danielehn/deteccion-de-necesidades-lafam#readme"
+  "homepage": "https://github.com/danielehn/deteccion-de-necesidades-lafam#readme",
+  "description": ""
 }
