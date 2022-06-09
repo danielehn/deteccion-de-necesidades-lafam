@@ -48,6 +48,20 @@ body main{
     justify-content: space-around;
 }
 
+.btn{
+display: inline block;
+}
+
+.nombreyocupacion{
+    display: flex;
+    flex-direction: row;
+     gap: 150px;
+     align-items: center;
+     p{
+         display: flex;
+         flex-direction: row;
+     }
+}
 .selecion-todo{
     display: flex;
     flex-direction: row;
