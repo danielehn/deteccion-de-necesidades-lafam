@@ -62,6 +62,7 @@
     </div>
   </header>
 <body>
+  <script src="Alert"></script>
   <main>
     <div class="grid-todo">
       <h1>Datos personales del paciente</h1>
@@ -138,6 +139,7 @@
         <option value="2">1-2 años</option>
         <option value="3">Mayor 2 años</option>
       </select>
+      <h1>Satisfacción de uso o expectativas</h1>
         <h5>¿Adicional a sus gafas usa otro tipo de correción óptica?</h5>
         <div class="selecion-todo">            
           <div class="form-check">
@@ -373,10 +375,8 @@ Marca
   </div>
   <button class="btn btn-primary">tener aca</button>
 </div>
-
   <h5>¿Que tipos de dispositivos electrónicos usa a diario?</h5  >
   <div class="selecion-todo">
-    
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
@@ -424,15 +424,32 @@ Marca
       </label>
     </div>
   </div>   
-  <select class="form-select" aria-label="Default select example">
-    <option value="1">No conduce</option>
-    <option value="1">Moto</option>
-    <option value="2">Carro</option>
-    <option value="3">Bicicleta</option>
-    <option value="4">Avión</option>
-    <option value="5">Buses</option>
-    <option value="6">Camiones</option>
-  </select>
+  <div class="selecion-todo">   
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            Carro
+        </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="flexCheckChecked">
+        Moto
+        </label>
+      <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+<label class="form-check-label" for="flexCheckDefault">
+  Avion
+</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="hola" id="flexCheckDefault">
+<label class="form-check-label" for="flexCheckChecked">
+  Vehiculos de carga/pasajeros
+</label>
+</div>
+</div>
 <h5>¿Ha tenido alguna molestia mientras conduce?</h5>
   <div class="selecion-todo">
     <div class="form-check">
@@ -488,7 +505,6 @@ Marca
         <input type="necesidad" class="form-control" id="inputcorreo">
       </div>
     </div>
-    
     <h5>¿En que actividad diaria no considera utilizar sus gafas?</h5>
     <div class="row-contacto mb-3">
       <label for="inputCorreo" class="col-sm-2 col-form-label" aria-placeholder="comentatuincomodidad"></label>
